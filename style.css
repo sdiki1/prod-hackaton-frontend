@@ -1,0 +1,9 @@
+body{
+    background-color: lightgrey;
+}
+
+.center-content{
+    background-color: white;
+    border-radius: 30px;
+    border: 0;
+}

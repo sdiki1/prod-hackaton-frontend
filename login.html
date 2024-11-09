@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        
+    <div class="center-content">
+        <div class="scrolling-form">
+            <div class="login-form">
+                <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="diwy_bot" data-size="large" data-userpic="false" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+<script type="text/javascript">
+  function onTelegramAuth(user) {
+    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+  }
+</script>
+                <input id="tg">
+                <input id="phone">
+                <input id="cardnumber">
+
+            </div>
+            <div class="register-form"></div>
+        </div>
+        <div class="buttons">
+            <button class="button-choice-logreg" id="reg">Регистрация</button>
+            <button class="button-choice-logreg" id="log">Вход</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
